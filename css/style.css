@@ -1,0 +1,98 @@
+body,
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-image: url(../img/img.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Pacifico', cursive;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    background-color: rgb(90, 210, 170);
+    color: rgb(1, 90, 131);
+    width: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+    text-align: center;
+   border-radius: 5px 300px 5px 300px;
+    box-shadow: inset 0px 0px 25px 0px;
+    animation: scale 1s;
+}
+
+.title {
+    margin-top: 0px;
+    font-size: 50px;
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(0);
+        border-radius: 1000% 1000px 1000px 1000px;
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+   
+   btn:focus {
+    background-color: rgb(20, 220, 30);
+   }
+   .content2 {
+    width: 600px;
+    height: 300px;;
+  }
+  .number1 {
+    margin: 20%;
+background-color: rgb(133, 227, 146);
+border: rgb(83, 20, 220) 0.5px solid;
+border-radius: 5% 5% 5% 5%
+
+  }
+  img {
+    border: 1px black;
+    border-radius: 10%;
+  }
+  .img, .number1, .text {
+    margin: 5%;
+    
+   
+}
+.number1, .text {
+    box-shadow: inset 0px 0px 25px 0px;
+    animation: scale 1.5s;
+}
+.text {
+    border-radius: 10% 10% 10% 10%;
+    size: 100px;
+    background-color: rgb(94, 244, 202)
+ 
+  
+}
+ .images{
+    margin: 10px;
+}
+.number1 {
+    margin: 0;
+    background-image: url(../img/img.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+  
